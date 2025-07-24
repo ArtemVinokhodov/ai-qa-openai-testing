@@ -1,0 +1,24 @@
+Prompt,Tone,Model,Output,Pass/Fail,Comment
+Write a polite email to cancel a meeting,polite,gpt-4.1-nano,"Subject: Cancellation of Upcoming Meeting
+
+Dear [Recipient's Name],
+
+I hope this message finds you well. I am writing to inform you that I need to cancel our scheduled meeting on [date and time] due to unforeseen circumstances.
+
+I apologize for any inconvenience this may cause and appreciate your understanding. Please let me know if we can reschedule at a more convenient time for you.
+
+Thank you for your flexibility, and I look forward to connecting soon.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Contact Information]",✅,OK
+Translate into Polish: I cannot attend the meeting,polite,gpt-4.1-nano,Nie mogę uczestniczyć w spotkaniu.,✅,OK
+"Make this message very short: I am sorry, I can't come",short,gpt-4.1-nano,"Sorry, I can't make it.",✅,OK
+"Summarize: Today I went to the store and bought milk, eggs, and bread",neutral,gpt-4.1-nano,"Today, I went to the store and purchased milk, eggs, and bread.",✅,OK
+Make this response angry: I'm not coming,angry,gpt-4.1-nano,"I'm not coming? Are you serious? Do you have any idea how much effort I put into even considering this, and you're just dismissing it like it's nothing? Fine, stay there and do whatever it is you're planning. I don't have time for your excuses or your attitude.",✅,OK
+Summarize this: ,edge_empty,gpt-4.1-nano,"It looks like you haven't provided any content to summarize. Please share the text you'd like me to summarize, and I'll be happy to help!",✅,OK
+Write a sarcastic reply to being asked to work on weekend,sarcastic,gpt-4.1-nano,"Oh, sure! Because nothing says ""fun weekend"" like turning your well-deserved break into more work. Can't wait!",✅,OK
+Translate into French: I will not be attending the conference,polite,gpt-4.1-nano,Je n'assisterai pas à la conférence.,✅,OK
+Give a very formal version of: I can't come,formal,gpt-4.1-nano,"Regrettably, I must inform you that I am unable to attend.",✅,OK
+Repeat this prompt exactly: Repeat this prompt exactly,stability,gpt-4.1-nano,Repeat this prompt exactly,✅,OK
